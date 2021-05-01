@@ -1,0 +1,323 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: font-family: 'Poppins', sans-serif;
+    ----------------------------------------
+    Colors:
+        
+        Gray Scale/Gray – 50:          #F2F2F2;
+        Gray Scale/White:              #FFFFFF;
+        Gray Scale/Gray – 800:         #333333; 
+        Gray Scale/Gray – 900:         #1A1A1A;
+        Green:                         #20B526;
+  
+============================================ */
+
+/* =========================================
+                Html, Body
+============================================ */
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*=========================
+    Heading Section
+==========================*/
+
+.primary-bg {
+  background: #f2f2f2;
+}
+.header-top {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  color: #807575;
+  padding-top: 13px;
+}
+.header-contact span {
+  float: left;
+  margin-right: 10px;
+}
+.header-links {
+  float: right;
+}
+.header-links select {
+  background: #f2f2f2;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  color: #666666;
+}
+
+.header-search {
+  height: 88px;
+  background: #ffffff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.logo-part {
+  margin-top: 17px;
+}
+.logo-part .image1 {
+  margin-right: 10px;
+}
+.logo-part .image2 {
+}
+.search-part {
+  width: 600px;
+}
+.card-part {
+  float: right;
+}
+span.card-one {
+  float: left;
+  margin-right: 20px;
+}
+span.card-one {
+  font-size: 30px;
+  padding: 0px 4px;
+  color: #89898a;
+}
+span.card-two {
+  font-size: 30px;
+  padding: 0px 4px;
+  color: #89898a;
+}
+.header-phone {
+  margin-top: 8px;
+}
+.phone-number {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  float: left;
+}
+.header-phone span {
+  color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.header-phone span i {
+  font-size: 25px;
+}
+.dropdown-item {
+  color: #f2f2f2;
+  /* border-bottom: 1px solid #fff; */
+  font-size: 14px;
+}
+.search-part .dropdown-item {
+  color: #141415;
+}
+/*=========================
+    Content Section
+==========================*/
+.breadcrumb {
+  background-color: #fff;
+}
+.breadcrumb i {
+  color: #808080;
+}
+.breadcrumb ol li a {
+  color: #808080;
+}
+.breadcrumb-item.active {
+  color: #2c742f;
+}
+.content-area h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1a1a1a;
+}
+.accordion span {
+  float: right;
+  font-size: 24px;
+}
+.accordion {
+  /* width: 648px; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1a1a1a;
+}
+.content-image img {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: -14%;
+}
+/*=========================
+    Subscribe Section
+==========================*/
+#subscribe-part {
+  background: #f7f7f7;
+  height: 134px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding-top: 38px;
+}
+.text-part h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #1a1a1a;
+}
+.text-part p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #999999;
+}
+.custom-form {
+  height: 58px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+}
+.custom-search {
+  height: 50px;
+  border-radius: 25px;
+  background-color: #f7f7f7;
+}
+.custome-btn {
+  background-color: #333333;
+  padding: 0px 68px;
+  border-radius: 42px;
+  position: relative;
+  left: -20px;
+  font-size: 20px;
+}
+.social-links {
+  margin-top: 8px;
+}
+.social-links ul {
+  float: right;
+}
+.social-links ul li {
+  float: left;
+}
+.social-links ul li a {
+  padding: 0px 4px;
+  color: #89898a;
+  font-size: 30px;
+}
+/*=========================
+    footer Section
+==========================*/
+#footer {
+  height: 344px;
+  background-color: #1a1a1a;
+}
+.footer-about {
+  width: 336px;
+  height: 166px;
+  margin-top: 84px;
+}
+.logo .logo1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.logo .logo2 {
+  width: 82px;
+  height: 38px;
+}
+.text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #808080;
+  margin-top: 15px;
+}
+.mail h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.my-account {
+  width: 95px;
+  height: 160px;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.same ul li {
+  padding: 5px 0px;
+}
+.same ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+  font-weight: 400;
+}
+.helps {
+  width: 130px;
+  height: 160px;
+}
+.proxy {
+  width: 82px;
+  height: 160px;
+}
+.categories {
+  width: 128px;
+  height: 160px;
+}
+.same p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/*-----footer-bottom-----*/
+.footer-bottom {
+  background-color: #1a1a1a;
+  height: 64px;
+  margin-top: 40px;
+}
+.copyright {
+  color: #808080;
+}
+.footer-bottom {
+  background-color: #1a1a1a;
+  height: 64px;
+  margin-top: 40px;
+  border-top: 1px solid #4a4747;
+  padding-top: 15px;
+}
+.footer-icon {
+  float: right;
+}
+.image {
+  width: 45px;
+  height: 31px;
+  border-radius: 5px;
+  margin-right: 14px;
+}
