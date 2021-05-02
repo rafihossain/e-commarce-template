@@ -67,66 +67,13 @@
     font-size: 12px;
     line-height: 2px;
   }
+  .copyright p {
+    font-size: 14px;
+  }
 }
 
 /*--large mobile 480px--*/
-@media (min-width: 480px) and (max-width: 767px) {
-  .search-part {
-    width: 400px;
-    max-width: 310px;
-  }
-  p.address {
-    font-size: 9px;
-  }
-  .logo-part {
-    margin-top: 0px;
-  }
-  .custom-search {
-    height: 37px;
-  }
-  span.card-one {
-    margin-right: -6px;
-  }
-  .content-image img {
-    top: 20px;
-  }
-  .text-part h2 {
-    font-size: 12px;
-  }
-  #subscribe-part {
-    padding-top: 30px;
-  }
-  .text-part p {
-    font-size: 7px;
-  }
-  .custome-btn {
-    padding: 0px 33px;
-    left: -70px;
-    font-size: 12px;
-  }
-  .custome {
-    width: 334px;
-  }
-  .custom-form {
-    font-size: 12px;
-  }
-  .social-links ul li a {
-    font-size: 19px;
-  }
-  .same {
-    margin-bottom: 24px;
-  }
-  .image {
-    width: 25px;
-    height: 20px;
-  }
-  .copyright p {
-    font-size: 10px;
-  }
-}
-
-/*--small mobile 320px--*/
-@media (max-width: 320px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .header-links {
     float: left;
   }
@@ -141,10 +88,10 @@
     height: 140px;
   }
   .search-part {
-    width: 305px;
     max-width: 310px;
     position: relative;
     top: -10px;
+    left: 42px;
   }
   .card-part {
     float: right;
@@ -168,7 +115,7 @@
   }
   #subscribe-part {
     padding-top: 30px;
-    height: 200px;
+    height: 228px;
   }
   .text-part {
     text-align: center;
@@ -191,7 +138,98 @@
   }
   .social-links ul li a {
     font-size: 19px;
-    margin-right: 35px;
+    margin-right: 57px;
+  }
+  .same {
+    margin-bottom: 24px;
+  }
+  .image {
+    width: 25px;
+    height: 20px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright p {
+    font-size: 10px;
+  }
+  .footer-about {
+    width: 300px;
+  }
+  .image {
+    margin-bottom: 21px;
+    margin-right: 32px;
+  }
+}
+
+/*--small mobile 320px--*/
+@media (min-width: 320px) and (max-width: 375px) {
+  .header-links {
+    float: left;
+  }
+  p.address {
+    font-size: 11px;
+  }
+  .logo-part {
+    position: relative;
+    top: 68px;
+  }
+  .header-search {
+    height: 140px;
+  }
+  .search-part {
+    width: 305px;
+    max-width: 310px;
+    position: relative;
+    top: -10px;
+    right: -34px;
+  }
+  .card-part {
+    float: right;
+    position: relative;
+    top: -23px;
+  }
+  .logo-part {
+    margin-top: 0px;
+  }
+  .custom-search {
+    height: 37px;
+  }
+  span.card-one {
+    margin-right: 18px;
+  }
+  .content-image img {
+    top: 20px;
+  }
+  .text-part h2 {
+    font-size: 18px;
+  }
+  #subscribe-part {
+    padding-top: 30px;
+    height: 258px;
+  }
+  .text-part {
+    text-align: center;
+  }
+  .text-part p {
+    font-size: 13px;
+  }
+  .custome-btn {
+    padding: 0px 33px;
+    left: -70px;
+    font-size: 12px;
+  }
+  .custome {
+    width: 334px;
+    margin-top: 25px;
+  }
+  .custom-form {
+    font-size: 12px;
+    height: 36px;
+  }
+  .social-links ul li a {
+    font-size: 19px;
+    margin-right: 38px;
   }
   .same {
     margin-bottom: 24px;
@@ -209,5 +247,8 @@
   .image {
     margin-bottom: 21px;
     margin-right: 20px;
+  }
+  .copyright {
+    text-align: center;
   }
 }
